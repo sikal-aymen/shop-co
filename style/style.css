@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.top-bar {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.top-bar a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: #f5f5f5;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navbar input {
+    padding: 7px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.icons {
+    font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background: #eee4e4;
+}
+
+.hero-text h1 {
+    font-size: 40px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    color: #555;
+    max-width: 400px;
+}
+
+button{padding: 10px 25px;
+    background: #000000;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.info {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+.info small {
+    display: block;
+    font-weight: normal;
+    color: #777;
+}
+
+.hero-image {
+    position: relative;
+    top: 44px;
+}
+
+.hero-image img {
+    max-width: 350px;
+}
+
+.star {
+    position: absolute;
+    font-size: 30px;
+    color: black;
+}
+
+.star1 {
+    top: 40px;
+    left: -30px;
+}
+
+.star2 {
+    top: 80px;
+    right: -30px;
+}
+
+.brands {
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-weight: bold;
+}
+.new-arrivals{
+    text-align: center;
+    padding: 40px;
+    background: #f9f9f9;
+}
+.new-arrivals h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    width: 220px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product-card h4 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.stars {
+    width: 150px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-left: 5px;
+}
+
+.discount {
+    color: red;
+    margin-left: 5px;
+    font-size: 13px;
+}
