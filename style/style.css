@@ -236,3 +236,183 @@ button{padding: 10px 25px;
     color: gray;
     margin-right: 5px;
 }
+.dress-style {
+    padding: 40px 20px;
+    background-color: #f6f6f6;
+    border-radius: 15px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.dress-style h2 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.style-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.style-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.style-item img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.style-item p {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #000000;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.testimonials {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {font-size: 28px;
+        font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f7f7f7;
+    padding: 20px;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    text-align: left;
+}
+.card .stars {
+    color: #ffc107;
+    font-size: 18px;
+}
+.card h4 {
+    margin: 10px 0 5px;
+}
+.verified {
+    color: green;
+    font-size: 16px;
+}
+.newsletter {
+    margin-top: 60px;
+    background-color: #000;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 20px;
+}
+.newsletter h2 {
+    font-size: 64px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+.newsletter input {
+    padding: 12px 15px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+}
+.newsletter button {
+    padding: 12px 20px;
+    background-color: #fff;
+    color: #000;
+        border: none;
+    border-radius: 25px;
+        font-weight: bold;
+    cursor: pointer;
+}
+.footer {
+    background-color: #f6f6f6;
+    padding: 40px 20px;
+    font-family: sans-serif;
+    color: #333;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+.footer-brand {
+    flex: 1 1 250px;
+}
+.footer-brand h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.footer-brand p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    max-width: 250px;
+}
+.social-icons a img {
+    width: 200px;
+}
+.footer-links {
+    display: flex;
+    flex: 3 1 600px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-links h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+.footer-links ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.footer-bottom {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-bottom p {
+    font-size: 13px;
+    color: #777;
+}
+.payment-icons img {
+    height: 34px;
+    margin-left: 10px;
+}
